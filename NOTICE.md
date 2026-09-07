@@ -8,6 +8,6 @@ The prototype separates three kinds of statements:
 
 1. thesis-supported facts;
 2. provisional dates or script labels marked for review;
-3. AI-assisted first-pass visual descriptions, always followed by human correction.
+3. Researcher-authored interpretation and evidence-status annotations.
 
 Original rubbing scans remain the author's research material and are not licensed by the upstream VIKUS Viewer license.

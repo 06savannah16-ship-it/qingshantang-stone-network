@@ -26,7 +26,6 @@ ITEMS = [
         "theme": "家族记忆",
         "relationship": "父辈旧交题赠少年徐麒",
         "human_note": "原画已佚，题字经刻石与拓本保存下来；它把一件消失的书画转化为徐氏家族记忆的起点。",
-        "ai_note": "机器初看容易把高反差拓片当作纯文本页面；人工校正后，重点转向行列节奏、字距变化与缺损痕迹。",
         "confidence": "日期明确；书体标签待研究者复核",
     },
     {
@@ -43,7 +42,6 @@ ITEMS = [
         "theme": "功业与归隐",
         "relationship": "文人题赠徐麒奉使归乡",
         "human_note": "与徐麒奉使西蜀、功成归隐的家族叙事相连，题赠把个人经历转化为可传承的公共声望。",
-        "ai_note": "机器可辅助标记纵向行列和印章区域，但无法仅凭图像判断题赠关系与‘心远’身份。",
         "confidence": "事件与人物明确；具体作年待考",
     },
     {
@@ -60,7 +58,6 @@ ITEMS = [
         "theme": "义民与隐居",
         "relationship": "名士题赠徐氏第二代文化空间",
         "human_note": "‘退庵’与徐氏不逐仕进、读书修身的家族形象相连，是空间命名参与身份建构的例子。",
-        "ai_note": "规则化纵列会得到较高版面置信度，但书体与文化语义仍需结合题名和论文判断。",
         "confidence": "人物关系明确；具体作年待考",
     },
     {
@@ -78,7 +75,6 @@ ITEMS = [
         "theme": "君恩与义民",
         "relationship": "朝廷旌表之后的名士题赞",
         "human_note": "敕书楼把赈灾义举、国家认可与家族空间连接起来，是徐氏声望形成的重要节点。",
-        "ai_note": "长卷式拓片便于识别整体版式，机器却难以区分褒扬文本中的官方语言与家族自我叙事。",
         "confidence": "正统年间及事件关系由终稿明确；具体作年待考",
     },
     {
@@ -95,7 +91,6 @@ ITEMS = [
         "theme": "家族记忆",
         "relationship": "名臣撰文与吴门书家重录",
         "human_note": "撰文与书写由不同名士完成，说明石刻既保存文本，也物化了徐氏与文化精英之间的协作网络。",
-        "ai_note": "密集小楷对通用 OCR 极不友好；项目保留误读风险，不把自动转写结果当成史料。",
         "confidence": "日期与书体由论文明确",
     },
     {
@@ -112,7 +107,6 @@ ITEMS = [
         "theme": "肖像与身份",
         "relationship": "吴门书家为徐氏先人作像赞",
         "human_note": "这是法帖中少见的隶书作品，为观察文徵明早期书风和明代隶体提供了独特样本。",
-        "ai_note": "机器能量化字面密度与规整度，却不能替代对取法、古意和程式化的书学判断。",
         "confidence": "书体与作者年龄由论文明确",
     },
     {
@@ -129,7 +123,6 @@ ITEMS = [
         "theme": "肖像与身份",
         "relationship": "吴门书家为徐氏先人题赞",
         "human_note": "作品位于祝允明小楷持续成熟的阶段，提按、转折与欹正关系构成重要的视觉观察线索。",
-        "ai_note": "机器描述可指出纵列、字距和墨色差异；具体笔法来源与风格阶段必须由美术史知识校正。",
         "confidence": "日期与书体明确；对象据终稿同章谱系表述核为徐颐",
     },
     {
@@ -146,7 +139,6 @@ ITEMS = [
         "theme": "母仪与纪念",
         "relationship": "王孺人八十寿辰的文人题赠",
         "human_note": "围绕王孺人寿辰形成的集中创作，把家庭纪念转化为跨地域的文人共同书写。",
-        "ai_note": "单页图像只能显示书写节奏；人工叙事补回寿辰、家族关系与雅集语境。",
         "confidence": "事件年份与书体由论文明确",
     },
     {
@@ -163,7 +155,6 @@ ITEMS = [
         "theme": "母仪与东林交游",
         "relationship": "东林领袖参与徐母寿辰题赠",
         "human_note": "原画已失，题诗成为东林人物与徐氏交往的物证，也让女性家族记忆留在男性文人网络之中。",
-        "ai_note": "机器无法从残存拓片推断已经消失的《秋圃晨机图》；缺席本身需要研究者解释。",
         "confidence": "事件、诗文开篇与东林交游由终稿明确；书体待复核",
     },
     {
@@ -180,7 +171,6 @@ ITEMS = [
         "theme": "父母纪念",
         "relationship": "徐霞客远行求书于董其昌",
         "human_note": "徐霞客‘匍匐五百里’求得此作，书写行为本身成为孝道、名家声望与家族纪念的连接点。",
-        "ai_note": "视觉模型容易受拓片拼接、破损和底色影响；人工校正把关注点移回晚年董书的欹正与疏密。",
         "confidence": "年份、书体与求书经过由论文明确",
     },
     {
@@ -198,7 +188,6 @@ ITEMS = [
         "theme": "空间与传承",
         "relationship": "友人为家族纪念空间作记",
         "human_note": "‘人亡而不亡者石，石忘而不忘者文’概括了晴山堂以材料保存记忆的核心逻辑。",
-        "ai_note": "机器可定位文本与印章，却无法自行理解‘石—文—人’之间的纪念关系。",
         "confidence": "文本、作者与王孺人八十寿辰语境明确；具体作年、书体待复核",
     },
     {
@@ -215,7 +204,6 @@ ITEMS = [
         "theme": "知己与唱和",
         "relationship": "黄道周与徐霞客诗文唱和",
         "human_note": "作为现存序列中最晚的作品之一，它将家族题赠传统收束到徐霞客本人的知己交往。",
-        "ai_note": "破损与强烈的字势会降低通用识读稳定性；人工标注保留‘无法确认’，不强行补全文字。",
         "confidence": "年份、唱和关系与诗组线索由终稿明确；书体待复核",
     },
 ]
@@ -264,19 +252,22 @@ def build(source_dir: Path, extra_dir: Path, output_dir: Path, skip_images: bool
             "_theme": item["theme"],
             "_relationship": item["relationship"],
             "_human_note": item["human_note"],
-            "_ai_note": item["ai_note"],
             "_confidence": item["confidence"],
             "_source": "张书颜硕士论文 2025 年 5 月 30 日终稿及个人整理的晴山堂拓片图像",
             "id": item["id"],
         })
 
     with (data_dir / "data.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
     with (data_dir / "timeline.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["year", "title", "text", "extra"])
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=["year", "title", "text", "extra"],
+            lineterminator="\n",
+        )
         writer.writeheader()
         for year, title, text, extra in TIMELINE:
             writer.writerow({"year": year, "title": title, "text": text, "extra": extra})
@@ -334,7 +325,6 @@ def build(source_dir: Path, extra_dir: Path, output_dir: Path, skip_images: bool
                 {"name": "对象", "source": "_recipient", "display": "column", "type": "text"},
                 {"name": "关系", "source": "_relationship", "display": "wide", "type": "text"},
                 {"name": "研究者解读", "source": "_human_note", "display": "wide", "type": "text"},
-                {"name": "AI 初看与人工校正", "source": "_ai_note", "display": "wide", "type": "text"},
                 {"name": "证据状态", "source": "_confidence", "display": "wide", "type": "text"},
                 {"name": "资料来源", "source": "_source", "display": "wide", "type": "text"},
             ]
@@ -349,10 +339,6 @@ def build(source_dir: Path, extra_dir: Path, output_dir: Path, skip_images: bool
 本次最小展览从 76 方现存石刻、88 位名士的 94 篇作品中选择 12 件代表作。你可以切换“时间 / 书体 / 记忆主题”，也可以按时期、书体、主题和体裁筛选。点击拓片查看高清细节与研究注释。
 
 终稿附表将 94 篇作品分为明早期 37 篇、明中期 13 篇、明晚期 44 篇；书体包括小楷 31 篇、行书 55 篇、草书 7 篇、隶书 1 篇。公开原型只呈现其中的策展样本，不等同于完整数据库。
-
-## AI 如何参与
-
-AI 只完成第一轮图像描述与结构提示，例如版面方向、密度、缺损和印章位置。作者再结合论文、人物关系和书法史知识逐条校正。未核定的日期和书体会明确标注，不把机器猜测伪装成史实。
 
 ## 研究范围
 

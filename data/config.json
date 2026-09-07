@@ -142,12 +142,6 @@
         "type": "text"
       },
       {
-        "name": "AI 初看与人工校正",
-        "source": "_ai_note",
-        "display": "wide",
-        "type": "text"
-      },
-      {
         "name": "证据状态",
         "source": "_confidence",
         "display": "wide",
