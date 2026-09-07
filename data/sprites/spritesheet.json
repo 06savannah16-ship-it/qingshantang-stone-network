@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "type": "sharpsheet",
+    "version": "1",
+    "app": "https://github.com/cpietsch/sharpsheet"
+  },
+  "spritesheets": [
+    {
+      "image": "sprite-1024-0.jpg",
+      "sprites": [
+        {
+          "name": "012",
+          "position": {
+            "x": 1,
+            "y": 1
+          },
+          "dimension": {
+            "w": 59,
+            "h": 128
+          }
+        },
+        {
+          "name": "007",
+          "position": {
+            "x": 62,
+            "y": 1
+          },
+          "dimension": {
+            "w": 127,
+            "h": 128
+          }
+        },
+        {
+          "name": "003",
+          "position": {
+            "x": 191,
+            "y": 1
+          },
+          "dimension": {
+            "w": 64,
+            "h": 128
+          }
+        },
+        {
+          "name": "002",
+          "position": {
+            "x": 257,
+            "y": 1
+          },
+          "dimension": {
+            "w": 62,
+            "h": 128
+          }
+        },
+        {
+          "name": "001",
+          "position": {
+            "x": 321,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 90
+          }
+        },
+        {
+          "name": "006",
+          "position": {
+            "x": 451,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 72
+          }
+        },
+        {
+          "name": "009",
+          "position": {
+            "x": 581,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 54
+          }
+        },
+        {
+          "name": "010",
+          "position": {
+            "x": 711,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 53
+          }
+        },
+        {
+          "name": "005",
+          "position": {
+            "x": 841,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 52
+          }
+        },
+        {
+          "name": "008",
+          "position": {
+            "x": 1,
+            "y": 131
+          },
+          "dimension": {
+            "w": 128,
+            "h": 34
+          }
+        },
+        {
+          "name": "004",
+          "position": {
+            "x": 131,
+            "y": 131
+          },
+          "dimension": {
+            "w": 128,
+            "h": 28
+          }
+        },
+        {
+          "name": "011",
+          "position": {
+            "x": 261,
+            "y": 131
+          },
+          "dimension": {
+            "w": 128,
+            "h": 17
+          }
+        }
+      ]
+    }
+  ]
+}

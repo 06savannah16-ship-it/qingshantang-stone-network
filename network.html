@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>文人关系网｜刻石成网</title>
+  <link rel="stylesheet" href="css/network.css" />
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="index.html">
+      <strong>刻石成网</strong>
+      <span>晴山堂 · 1370—1632</span>
+    </a>
+    <nav class="view-switch" aria-label="视图切换">
+      <a href="index.html">拓片地图</a>
+      <span>文人关系网</span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">NETWORK OF INSCRIPTION</p>
+      <h1>一方石刻，连接谁与谁？</h1>
+      <p>终稿记录了 76 方现存石刻、88 位名士、94 篇作品与 263 年跨度。这里从中选择 12 件：左侧是书写者，中间是作品，右侧是被纪念的人与家族空间。把鼠标移到节点上，看一篇文字如何把文人声望、家族记忆与刻石保存连成一条线。</p>
+      <div class="legend" aria-label="图例">
+        <span><i class="author"></i>书写者</span>
+        <span><i class="work"></i>作品</span>
+        <span><i class="family"></i>家族人物／空间</span>
+      </div>
+    </section>
+
+    <section class="network-stage">
+      <div class="network-canvas" id="network" aria-label="晴山堂石刻人物关系可视化"></div>
+      <aside class="story-panel" id="story" aria-live="polite">
+        <p class="story-kicker">1370 · 家族记忆</p>
+        <img src="data/1024/001.jpg" alt="倪瓒题本中书室图拓片" />
+        <h2>题《本中书室图》</h2>
+        <p class="story-route">倪瓒 → 徐麒（字本中）</p>
+        <p class="story-body">原画已佚，题字经刻石与拓本保存下来；它把一件消失的书画转化为徐氏家族记忆的起点。</p>
+        <p class="story-status">证据状态：日期明确；书体标签待研究者复核</p>
+      </aside>
+    </section>
+
+    <section class="method-note">
+      <p class="eyebrow">READING THE NETWORK</p>
+      <h2>这不是一张“名人名单”</h2>
+      <div class="method-grid">
+        <p><b>家族记忆</b><br />同一件石刻同时保存文字、书迹和“谁为谁书写”的社会关系。</p>
+        <p><b>文人交游</b><br />从倪瓒到黄道周，263 年的题赠不断为徐氏身份与文化空间增添新的解释。</p>
+        <p><b>AI 边界</b><br />机器帮助观察版面和整理字段；人物关系、失佚作品和历史语义仍由研究者核定。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>张书颜 · 艺术史研究与数字化呈现 · 2026 MVP</footer>
+  <script src="js/d3.v3.min.js"></script>
+  <script src="js/network.js"></script>
+</body>
+</html>

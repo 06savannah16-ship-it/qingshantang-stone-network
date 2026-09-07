@@ -1,0 +1,164 @@
+{
+  "project": {
+    "name": "刻石成网：晴山堂 263 年",
+    "quality": 1
+  },
+  "searchEnabled": true,
+  "sortKeywords": [
+    "明早期",
+    "明中期",
+    "明晚期",
+    "家族记忆",
+    "母仪与纪念",
+    "母仪与东林交游",
+    "父母纪念",
+    "知己与唱和",
+    "小楷",
+    "隶书",
+    "行书",
+    "行楷",
+    "行草"
+  ],
+  "loader": {
+    "info": "data/info.md",
+    "timeline": "data/timeline.csv",
+    "items": "data/data.csv",
+    "layouts": [
+      {
+        "title": "时间",
+        "type": "group",
+        "groupKey": "year",
+        "columns": 1
+      },
+      {
+        "title": "书体",
+        "type": "group",
+        "groupKey": "_script",
+        "columns": 1
+      },
+      {
+        "title": "记忆主题",
+        "type": "group",
+        "groupKey": "_theme",
+        "columns": 1
+      }
+    ],
+    "textures": {
+      "medium": {
+        "size": 128,
+        "url": "data/sprites/spritesheet.json"
+      },
+      "detail": {
+        "size": 1024,
+        "url": "data/1024/"
+      },
+      "big": {
+        "size": 4096,
+        "url": "data/4096/"
+      }
+    }
+  },
+  "style": {
+    "fontColor": "#2d2a26",
+    "fontColorActive": "#f3eee2",
+    "fontBackground": "#8e2f25",
+    "textShadow": "1px 1px 0px #eee7d8",
+    "canvasBackground": "#d9d2c2",
+    "timelineBackground": "#f3eee2",
+    "timelineFontColor": "#2d2a26",
+    "backgroundHeader": "#1d1c1a",
+    "fontColorHeader": "#c46a57",
+    "detailBackground": "#f1ecdf",
+    "infoBackground": "#23211e",
+    "infoFontColor": "#f3eee2",
+    "searchbarBackground": "#8e2f25"
+  },
+  "projection": {
+    "columns": 1
+  },
+  "filter": {
+    "type": "crossfilter",
+    "dimensions": [
+      {
+        "label": "时期",
+        "source": "_period"
+      },
+      {
+        "label": "书体",
+        "source": "_script"
+      },
+      {
+        "label": "主题",
+        "source": "_theme"
+      },
+      {
+        "label": "体裁",
+        "source": "_genre"
+      }
+    ]
+  },
+  "detail": {
+    "structure": [
+      {
+        "name": "作品",
+        "source": "_title",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "作者",
+        "source": "_creator",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "年代",
+        "source": "_date",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "书体",
+        "source": "_script",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "对象",
+        "source": "_recipient",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "关系",
+        "source": "_relationship",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "研究者解读",
+        "source": "_human_note",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "AI 初看与人工校正",
+        "source": "_ai_note",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "证据状态",
+        "source": "_confidence",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "资料来源",
+        "source": "_source",
+        "display": "wide",
+        "type": "text"
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Qingshan Sans";
+  src: local("PingFang SC"), local("Noto Sans CJK SC"), local("Microsoft YaHei");
+}
+
+body,
+.sidebar,
+.timeline,
+.navi,
+.searchbar {
+  font-family: "Qingshan Sans", "Songti SC", sans-serif;
+}
+
+.project-mark {
+  position: fixed;
+  left: 24px;
+  top: 20px;
+  z-index: 1200;
+  pointer-events: none;
+  color: #26231f;
+  letter-spacing: 0.08em;
+  text-shadow: 0 1px 0 rgba(243, 238, 226, 0.9);
+}
+
+.project-mark strong {
+  display: block;
+  font-family: "Songti SC", "STSong", serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.project-mark span {
+  display: block;
+  margin-top: 5px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.view-switch {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  z-index: 1300;
+  display: flex;
+  gap: 5px;
+  padding: 4px;
+  border: 1px solid rgba(45, 42, 38, 0.22);
+  border-radius: 999px;
+  background: rgba(243, 238, 226, 0.88);
+  box-shadow: 0 8px 30px rgba(34, 31, 26, 0.12);
+  backdrop-filter: blur(8px);
+}
+
+.view-switch a,
+.view-switch span {
+  display: block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  color: #403b34;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
+.view-switch .active {
+  background: #8e2f25;
+  color: #f3eee2;
+}
+
+.view-switch a:hover {
+  color: #8e2f25;
+}
+
+.sidebar .entry .label {
+  color: #8e2f25;
+}
+
+.sidebar .entry.wide .content {
+  line-height: 1.75;
+}
+
+.crossfilter {
+  top: 64px !important;
+  width: calc(100% - 250px) !important;
+}
+
+.navi {
+  top: 64px !important;
+  right: 24px;
+  left: auto !important;
+  display: flex;
+  gap: 4px;
+}
+
+.navi .button,
+.navi .button.active {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 7px 10px;
+  border-radius: 2px;
+  letter-spacing: 0.08em;
+}
+
+.searchbar {
+  display: none !important;
+}
+
+@media (max-width: 720px) {
+  .project-mark {
+    left: 14px;
+    top: 12px;
+  }
+
+  .project-mark strong {
+    font-size: 17px;
+  }
+
+  .view-switch {
+    top: 10px;
+    right: 10px;
+  }
+
+  .view-switch a,
+  .view-switch span {
+    padding: 6px 9px;
+    font-size: 10px;
+  }
+
+  .crossfilter {
+    top: 54px !important;
+    width: calc(100% - 20px) !important;
+  }
+
+  .navi {
+    top: auto !important;
+    right: 10px;
+    bottom: 16px;
+  }
+}
